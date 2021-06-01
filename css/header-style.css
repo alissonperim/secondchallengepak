@@ -1,5 +1,5 @@
 :root{
-    --btn-green: rgb(132, 252, 186);
+    --btn-green: rgb(82, 231, 149);
     --btn-purpple: rgb(187, 163, 245);
     --text-color: rgb(189, 187, 187);
     --headers-color: rgb(92, 92, 92);
@@ -84,10 +84,12 @@ body{
     border-radius: 50px;
     color: white;
     font-weight: 500;
+    transition: ease-out 0.3s;
 }
 
 .btn--green:hover{
-    box-shadow: rgba(132, 252, 186, 0.3) 0px 15px 12px;
+    box-shadow: rgba(55, 228, 133, 0.3) 0px 15px 12px, inset 0 -2px 0px 0px rgba(15, 128, 65, 0.3);
+    transition: ease 0.3s;
 }
 
 .btn--purpple{
@@ -98,8 +100,10 @@ body{
     border-radius: 50px;
     color: white;
     font-weight: 500;
+    transition: ease-out 0.3s;
 }
 
 .btn--purpple:hover{
-    box-shadow: rgba(187, 163, 245, 0.3) 0px 15px 12px;
+    box-shadow: rgba(187, 163, 245, 0.3) 0px 15px 12px, inset 0 -2px 0px 0px rgba(119, 66, 243, 0.5);
+    transition: ease 0.3s;
 }
