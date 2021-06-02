@@ -1,14 +1,3 @@
-:root{
-    --btn-green: rgb(38, 187, 164);
-    --btn-purpple: rgb(187, 163, 245);
-    --text-color: rgb(189, 187, 187);
-    --headers-color: rgb(92, 92, 92);
-    --btn-hover-green: rgb(132, 252,186);
-    --btn-hover-purpple: rgb(204, 187, 245);
-    --font-family: 'Bai Jamjuree', sans-serif;
-    --footer-bgcolor: rgb(245, 243, 243);
-}
-
 #footer-section{
     background-color: var(--footer-bgcolor);
 }
