@@ -1,0 +1,64 @@
+:root{
+    --btn-green: rgb(38,187,164);
+    --btn-purpple: rgb(187, 163, 245);
+    --text-color: rgb(189, 187, 187);
+    --headers-color: rgb(92, 92, 92);
+    --hover-color: rgb(132, 252,186);
+    --font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.informative-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informative__h2{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 2rem;
+    color: var(--headers-color);
+}
+
+.informative__p{
+    position: relative;
+    text-align: center;
+    width: 75%;
+    padding: 2% 0 0 0;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.second-informative-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 6%;
+}
+
+.mac-image{
+    margin-left: -60px;
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+
+.informations__h3{
+    font-size: 1.5rem;
+    color: var(--headers-color);
+}
+
+.informations__p{
+    padding-right: 40%;
+    color: var(--text-color);
+}
