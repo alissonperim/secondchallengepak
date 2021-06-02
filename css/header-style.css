@@ -68,10 +68,9 @@ body{
     color: var(--text-color);
 }
 
-.header-log__link{
+.btn-download__link{
     display: flex;
     flex-direction: row;
-    display: relative;
     padding-top: 6%;
     align-items: center;
     justify-content: center;
@@ -108,4 +107,3 @@ body{
     box-shadow: rgba(187, 163, 245, 0.3) 0px 15px 12px, inset 0 -2px 0px 0px rgba(119, 66, 243, 0.5);
     transition: ease 0.3s;
 }
-
