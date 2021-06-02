@@ -1,5 +1,5 @@
 :root{
-    --btn-green: rgb(38,187,164);
+    --btn-green: rgb(38, 187, 164);
     --btn-purpple: rgb(187, 163, 245);
     --text-color: rgb(189, 187, 187);
     --headers-color: rgb(92, 92, 92);
@@ -72,6 +72,16 @@
     padding-left: 30px;
 }
 
-.icon-social-midia__link:hover{
-    color: var(--btn-green);
+.icon-social-midia__hover{
+    display: none;
+    z-index: 99;
+}
+
+.icon-social-midia__link:hover .icon-social-midia__hover{
+    display: inline;
+}
+
+
+.icon-social-midia__link:hover .icon-social-midia__undercover{
+    display: none;
 }
